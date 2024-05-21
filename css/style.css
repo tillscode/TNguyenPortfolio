@@ -1,0 +1,205 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+    margin-bottom: 8rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+
+.tylerlogo {
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.hero-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem;
+    margin-top: 6rem;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+}
+
+.greeting {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4.21rem;
+    margin-top: -1rem;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 10%;
+} 
+
+.about-sect {
+    padding: 6rem;
+    display: grid;
+}
+
+h2 {
+    text-align: center;
+}
+
+.greet2 {
+    text-align: center;
+}
+
+.about-img {
+    border-radius: 1.5rem;
+    justify-content: center;
+    width: 300px;
+}
+
+.about-box {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .75rem;
+    padding: 1rem 1.25rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-info {
+    gap: .5rem;
+    grid-template-columns: repeat(3, 140px);
+    justify-content: center;
+}
+
+.grid {
+    grid-gap: 1.5rem;
+    display: grid;
+}
+
+.about-sectcon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about-descy {
+ margin-top: 1.5rem;
+ text-align: center;
+}
+
+.about-box:hover {
+    color: red;
+}
+
+.proj-sect {
+    padding: 6rem;
+    display: grid;
+}
+
+.proj1-img {
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proj1-right {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.skilssy {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 1rem;
+
+    border-radius: 15px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.timeline-item {
+    position: relative;
+    width: 200px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    height: 2px;
+    width: 40px;
+    background: #ccc;
+}
+
+.timeline-item:first-child::before {
+    content: none;
+}
+
+.timeline-content {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.exp-sect {
+    padding-top: 6rem;
+    display: grid;
+}
+
